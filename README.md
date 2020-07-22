@@ -22,7 +22,7 @@ Instalación
 
 4. El archivo config.properties contiene la URL del servicio de consulta de precios de item.
 
-5. Para ejecución de los test, ejecutar el comando mvn test jacoco:report.
+5. Para ejecución de los test, ejecutar el comando #mvn test jacoco:report. Luego acceder a target/site/jacoco/index.html para ver el informe.
 
 Manos a la obra
 --------------------
