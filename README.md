@@ -26,7 +26,8 @@ Instalación
 
 Manos a la obra
 --------------------
-En Postman, es posible validar el funcionamiento del proyecto haciendo uso del siguiente payload:
+En Postman, es posible validar el funcionamiento del proyecto haciendo uso del siguiente payload (POST):
+
 {
 "item_ids": [
 	"MCO498011211",
@@ -49,3 +50,25 @@ En Postman, es posible validar el funcionamiento del proyecto haciendo uso del s
 	"MCO515806051"],
 "amount":500000
 }
+
+
+El servicio responderá: 
+
+{
+    "item_ids": [
+        "MCO515806051",
+        "MCO451945279",
+        "MCO451945333",
+        "MCO451945403",
+        "MCO451945560",
+        "MCO451945848",
+        "MCO457953350",
+        "MCO506099618"
+    ],
+    "total": 499300.0
+}
+
+Heroku
+--------------------
+El servicio actualmente se encuentra disponible en https://couponapicecl.herokuapp.com/coupon 
+
